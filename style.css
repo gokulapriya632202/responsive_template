@@ -1,0 +1,455 @@
+body{
+    margin: 0;
+}
+.sidebar{
+    background-color: rgba(0, 0, 0, 0.719);
+    position: fixed;
+    width: 20%;
+    height: 1000px;
+    display: none;
+}
+.sidebar img{
+    width: 100%;
+    margin: 20px 0;
+    margin-bottom: 50px;
+}
+.sidebar h4{
+    background-color: rgba(0, 0, 0, 0.134);
+    margin: 0;
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.885);
+    text-align: center;
+}
+/* .main{
+    width: 80%;
+    float: right;
+    background-color: red;
+} */
+
+.main{
+    width: 100%;
+    color: white ;
+}
+.main img{
+    width: 100%;
+    position: relative;
+    filter: brightness(50%);
+    height: 350px;
+}
+.main1{
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    right: 40px;
+    text-align: center;
+}
+.main1 h2{
+    font-family: arial;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.main1 p{
+    color: rgba(255, 255, 255, 0.779);
+}
+.main1 button{
+    background-color: rgb(51, 140, 175)   ;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    border-style: solid;
+    border-color: rgb(43, 120, 150);
+    transition: opacity 0.3s;
+}
+.main1 button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.main1 button:active{
+    opacity: 1;
+}
+.main2{
+    text-align: center;
+}
+.main2 h4{
+    margin-top: 60px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: verdana;
+    color: rgb(15, 123, 166);
+}
+.main2 p{
+    padding: 10px 20px;
+    color: rgba(0, 0, 0, 0.578);
+    margin-bottom: 30px;
+}
+.main3{
+    border-top: 5px solid  rgba(255, 166, 0, 0.526);;
+    margin: 30px;
+}
+.main3 button{
+    padding: 10px 20px;
+    background-color:  rgba(255, 166, 0, 0.526);;
+    border-color:  rgba(255, 166, 0, 0.526);;
+    border-style: solid;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.girlimages{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.girlimages img{
+    height: 100px;
+    width: 100px;
+}
+.girlimages h4{
+    color:  rgba(255, 166, 0, 0.526);;
+    font-size: 12px;
+}
+.girlimages p{
+    color: rgba(0, 0, 0, 0.33);
+}
+.main4{
+   margin: 0 30px;
+   margin-bottom: 100px;
+}
+.main4 h4{
+    font-size: 20px;
+    font-family: verdana;
+    color: rgba(255, 166, 0, 0.526);
+}
+.main4 p{
+    color: rgba(0, 0, 0, 0.377);
+}
+.main5{
+    border-top: 5px solid rgb(135, 19, 245);
+    margin: 0 30px;
+}
+.main5 button{
+    padding: 10px 20px;
+    background-color: rgb(135, 19, 245);
+    color: white;
+    border: none;
+}
+.sub1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin: 20px 30px;
+    margin-bottom: 50px;
+    
+}
+.sub1 button{
+    padding: 10px 0;
+    background-color: rgb(135, 19, 245);
+    color: white;
+    border: 2px solid rgb(135, 19, 245);
+}
+.main6{
+    margin: 30px;
+}
+.main6 h4{
+    font-family: arial;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(126, 82, 167);
+}
+.sub6 p{
+    color: rgba(0, 0, 0, 0.455);
+}
+.forms {
+    margin: 0px 30px;
+    margin-bottom: 80px;
+}
+
+.for,
+.for2,
+.for3,
+.for4 {
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.firstform {
+    display: flex;
+    border: none;
+}
+
+.for {
+    width: 170px;
+    border: 1px solid rgb(109, 55, 179);
+    background-color: rgb(109, 55, 179);
+    padding: 5px;
+
+}
+
+.for::placeholder {
+    color: white;
+}
+
+.foru {
+    width: 10%;
+    height: 10%;
+    margin-top: 10px;
+    margin-left: -11px;
+    border-right: none;
+    border: 1px solid rgb(109, 55, 179);
+    padding: 5px;
+}
+
+.main7{
+    margin: 0 30px;
+    border-top: 5px solid rgb(22, 187, 22);
+}
+.but2{
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    background-color:  rgb(77, 208, 77);
+    border-color:  rgb(77, 208, 77);
+    border-style: solid;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin-bottom: 20px;
+    color: rgb(77, 208, 77);
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    color: rgb(77, 208, 77);
+    margin-bottom: 30px;
+}
+.but1{
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    background-color:  rgb(77, 208, 77);
+    color: white;
+    margin-left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-style: solid;
+    border: none;
+    border-bottom: 2px solid green;
+    transition: opacity 0.3s;
+    opacity: 0.7;
+}
+.but1:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.but1:active{
+    opacity: 0.7;
+    
+}
+.main8{
+    margin: 0 30px;
+    border-top: 5px solid rgb(171, 27, 51);
+    margin-bottom: 60px;
+}
+.contactbutton{
+    padding: 10px 20px;
+    background-color: rgb(199, 65, 87);
+    color: white;
+    border: none;
+    margin-bottom: 50px;
+}
+.main8 img{
+    width: 100%;
+    position: relative;
+}
+.over{
+    position: absolute;
+    top: 340%;
+    background-color: white;
+    left: 45px;
+    padding: 10px;
+}
+.lapimage{
+    margin-left: 30%;
+}
+.overbutton{
+    background-color: white;
+    color: rgb(22, 145, 194);
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+.overbutton:hover{
+    color: white;
+    background-color:  rgb(22, 145, 194);;
+}
+.overbutton:active{
+    opacity: 0.7;
+}
+.main9{
+    margin: 0 30px;
+    margin-bottom: 40px;
+}
+.first{
+    padding: 10px 20px;
+    background-color: rgb(199, 65, 87);
+    color: white;
+    border: none;
+    margin-bottom: 50px;
+    font-weight:bold;
+    border-bottom: 3px solid rgb(171, 27, 51);
+    transition: opacity 0.3s;
+}
+.first:hover{
+    opacity: 0.8;
+}
+.first:active{
+    opacity: 0.5;
+}
+.inputone{
+    width: 100%; 
+    padding:5px 0; 
+    border-style: solid; 
+    margin-bottom: 10px;
+}
+.inputwo{
+    width: 100%; 
+    padding: 5px 0; 
+    border-style: solid; 
+    margin-bottom: 10px;
+}
+.inputhree{
+    width: 100%; 
+    padding: 5px 0; 
+    border-style: solid; 
+    margin-bottom: 10px;
+}
+.inputfour{
+    width: 100%; 
+    padding: 20px 0; 
+    border-style: solid; 
+    margin-bottom: 30px;
+}
+.main10
+{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.468);
+    padding: 20px 30px;
+}
+
+@media only screen and (min-width: 1068px)
+{
+    img{
+        width: 100%;
+        height:auto;
+    }
+    .sidebar{
+        background-color: rgba(0, 0, 0, 0.719);
+        position: fixed;
+        width: 20%;
+        height: 1000px;
+        display: unset;
+    }
+    .navbar{
+        width: 80%;
+        float: right;
+        
+    }
+    .girlimages img{
+        width: 330px;
+        height: 330px;
+    }
+    .over{
+        top: 2900px;
+        left: 700px;
+        padding: 40px;
+    }
+    .main8 img{
+        filter: brightness(50%);
+    }
+    .main2{
+        text-align: center;
+    }
+    .main1 h2{
+        font-size: 64px;
+        margin-bottom: 0;
+    }
+    .main1{
+        position: absolute;
+        top: 50px;
+        left: 250px;
+        right: 40px;
+        text-align: center;
+    }
+    .main3, .main4{
+        margin: 0 100px;
+    }
+    .main4{
+        margin-bottom: 100px;
+    }
+    .girlimages{
+        display: flex;
+        margin: 50px 30px;
+        text-align: center;
+        margin-bottom: 50px;
+        margin: 0 100px;
+        justify-content: space-between;
+    }
+    .girlimages h4{
+        color:  rgba(255, 166, 0, 0.526);;
+        font-size: 24px;
+    }
+    .girlimages p{
+        color: rgba(0, 0, 0, 0.33);
+    }
+    .main4 h4{
+        margin-top: 70px;
+    }
+    
+    .sub{
+        display: grid;
+        grid-template-columns: 660px 300px;
+
+    }
+    .main5, .main6, .forms, .main7, .main8, .main9{
+      margin: 0px 100px 0 100px;
+
+    }
+    .main8 img{
+        margin-bottom: 50px;
+    }
+    .sub1{
+        margin: 50px 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sub1 button{
+        padding: 20px;
+    }
+    
+    .main5 button{
+        background-color: rgb(135, 19, 245);
+        color: white;
+        border: none;
+    }
+    .group{
+        display: flex;
+        margin-bottom: 100px;
+    }
+    .forms{
+        margin-top: 20px;
+    }
+    .but1{
+        margin-left: 460px;
+    }
+    
+    
+}
